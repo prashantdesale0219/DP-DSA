@@ -7,8 +7,8 @@ int main(){
 //	5 4 3 2
 //	5 4 3 2 1
 	
-	for(int i=5;i>=1;i--){
-		for(int j=5;j>=i;j--){
+	for(int i=0;i<=5;i++){
+		for(int j=5;j>=5-i;j--){
 			cout << j << " ";
 		}
 		cout << endl;
