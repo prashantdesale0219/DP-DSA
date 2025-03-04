@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void cube(int num){
+void table(int num){
 	
 	for(int i=1;i<=10;i++){
 		cout << num << "*" << i << "=" << num*i  ;
@@ -15,6 +15,6 @@ int main(){
 	int n ;
 	cout << "Enter no : "  ;
 	cin >> n ;
-	cube(n);
+	table(n);
 	
 }

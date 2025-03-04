@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void cube(int num){
+void factorial(int num){
 	
 	int fact=1;
 	for(int i=num;i>0;i--){
@@ -15,5 +15,5 @@ int main(){
 	int n ;
 	cout << "Enter no : "  ;
 	cin >> n ;
-	cube(n);
+	factorial(n);
 }
